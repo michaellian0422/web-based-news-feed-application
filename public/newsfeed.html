@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+    <title>Home page - Assignment1 newsfeed</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="javascripts/script.js"></script>
+</head>
+
+<body onload="loadNewsList(1)">
+<header>
+    <h1>
+        News feed system (Assignment1)
+    </h1>
+</header>
+<section class="contents">
+
+<div id=header>
+    <nav>
+        <form onsubmit="loadNewsList(1)">
+            <input style ="width: 50%;" type="text" id="keyword" name="keyword">
+            <input type="submit" value="Search news headlines">
+            <div id="login"></div>
+        </form>
+    </nav>
+</div>
+
+<div id="news"></div>
+
+<div id="pageindex"></div>
+
+
+
+</section>
+
+
+</body>
+</html>
